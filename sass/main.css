@@ -1,1 +1,86 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #14274a;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1570px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__icon {
+  display: inline-block;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 88px;
+}
+
+.nav__link {
+  color: #ffffff;
+}
+
+.hero-wrapper {
+  min-height: 1080px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(20, 39, 74, 0.5)), to(rgba(20, 39, 74, 0.5))), url(../images/gabriel-hero-back.jpg);
+  background-image: linear-gradient(to right, rgba(20, 39, 74, 0.5), rgba(20, 39, 74, 0.5)), url(../images/gabriel-hero-back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  max-width: 698px;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */

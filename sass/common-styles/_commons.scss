@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #14274a;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul,
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 1570px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}

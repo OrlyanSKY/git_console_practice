@@ -1,0 +1,14 @@
+.hero-wrapper {
+    min-height: 1080px;
+    background-image: linear-gradient(to right, rgba(20, 39, 74, 0.5), rgba(20, 39, 74, 0.5)),
+        url(../images/gabriel-hero-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero {
+    &__title {
+        max-width: 698px;
+        color: #ffffff;
+    }
+}

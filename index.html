@@ -5,31 +5,55 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Luxury Hotel</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./sass/main.css" />
     </head>
     <body>
-        <header>
-            <a href="#" class="logo">
-                <svg class="logo__icon">
-                    <use href="./images/main-logo.svg"></use>
-                </svg>
-            </a>
-            <nav>
-                <li>
-                    <a href="#" class="nav__link">Home</a>
-                </li>
+        <div class="hero-wrapper">
+            <header class="page-header">
+                <div class="container header-content">
+                    <a href="#" class="logo">
+                        <img src="./images/logo.png" alt="hotel" />
+                    </a>
+                    <nav class="nav">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
 
-                <li>
-                    <a href="#" class="nav__link">Facilities</a>
-                </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Facilities</a>
+                        </li>
 
-                <li>
-                    <a href="#" class="nav__link">Rooms</a>
-                </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Rooms</a>
+                        </li>
 
-                <li>
-                    <a href="#" class="nav__link">Contact-us</a>
-                </li>
-            </nav>
-        </header>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact-us</a>
+                        </li>
+                    </nav>
+                </div>
+            </header>
+            <section class="hero">
+                <div class="container">
+                    <h1 class="hero__title">
+                        WELCOME TO<br /><span>Luxury</span><br /><span>hotels</span><br />Book your
+                        stay and enjoy Luxury redefined at the most affordable rates.
+                    </h1>
+                </div>
+            </section>
+        </div>
     </body>
 </html>

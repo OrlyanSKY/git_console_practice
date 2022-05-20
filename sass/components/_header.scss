@@ -1,0 +1,19 @@
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    &__icon {
+        display: inline-block;
+    }
+}
+.nav {
+    display: flex;
+    margin-left: auto;
+    &__item:not(:last-child) {
+        margin-right: 88px;
+    }
+    &__link {
+        color: #ffffff;
+    }
+}
